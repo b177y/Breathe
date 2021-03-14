@@ -38,12 +38,11 @@
 }
 
 .circle {
-  height: 600px;
-  width: 600px;
   border-radius: 50%;
   background: rgb(255,206,224);
   background: linear-gradient(137deg, rgba(255,206,224,1) 0%, rgba(248,120,131,1) 100%);
-  animation-name: breatheAnimation;
+  animation-name: breathe;
+  animation-iteration-count: infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,6 +50,5 @@
 
 .circle-text {
   color: #FFFFFF;
-  font-size: 60px;
   font-weight: bold;
 }
